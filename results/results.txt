@@ -1,16 +1,15 @@
-connerd4@login02:~/silverfund/momentum$ uv run 3_visualize.py 
 Loading asset returns...
 Processing raw_idiosyncratic_industry_momentum...
  -> Saved chart to raw_idiosyncratic_industry_momentum_chart.png
 Summary for raw_idiosyncratic_industry_momentum:
 shape: (1, 3)
-┌─────────────┬────────────┬────────┐
-│ mean_return ┆ volatility ┆ sharpe │
-│ ---         ┆ ---        ┆ ---    │
-│ f64         ┆ f64        ┆ f64    │
-╞═════════════╪════════════╪════════╡
-│ 0.457768    ┆ 4.427139   ┆ 0.1034 │
-└─────────────┴────────────┴────────┘
+┌─────────────┬────────────┬──────────┐
+│ mean_return ┆ volatility ┆ sharpe   │
+│ ---         ┆ ---        ┆ ---      │
+│ f64         ┆ f64        ┆ f64      │
+╞═════════════╪════════════╪══════════╡
+│ 6.921195    ┆ 7.131978   ┆ 0.970445 │
+└─────────────┴────────────┴──────────┘
 ------------------------------
 Processing vol_adj_idiosyncratic_industry_momentum...
  -> Saved chart to vol_adj_idiosyncratic_industry_momentum_chart.png
@@ -21,7 +20,6 @@ shape: (1, 3)
 │ ---         ┆ ---        ┆ ---      │
 │ f64         ┆ f64        ┆ f64      │
 ╞═════════════╪════════════╪══════════╡
-│ 0.514338    ┆ 4.264582   ┆ 0.120607 │
+│ 8.075904    ┆ 7.210111   ┆ 1.120081 │
 └─────────────┴────────────┴──────────┘
 ------------------------------
-connerd4@login02:~/silverfund/momentum$ 
